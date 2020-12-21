@@ -1,0 +1,10 @@
+{
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "lr-log",
+    "body": [
+      "console.log('${1:fileName} -> ${2:methodName} -> ${3:variableName}:  ', $3);"
+    ],
+    "description": "Template for meaningful console.log"
+  }
+}
